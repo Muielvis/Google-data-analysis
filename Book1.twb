@@ -1,0 +1,1816 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='65e6a283a690b60e24064f6732de132789dd21871dd204dde64b3e0e860f9397' _.fcp.WorkbookFingerprinting.true...creator-author-id='65e6a283a690b60e24064f6732de132789dd21871dd204dde64b3e0e860f9397' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='65e6a283a690b60e24064f6732de132789dd21871dd204dde64b3e0e860f9397' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='65e6a283a690b60e24064f6732de132789dd21871dd204dde64b3e0e860f9397' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <PatternedLineMarks />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='play_store_cleaned' inline='true' name='federated.19gtlv007ethd31drtbj119j4c0j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='play_store_cleaned' name='textscan.148um9r05kss5p172we29054j1k2'>
+            <connection class='textscan' directory='E:/Moringa_Data_Science/module_3/Summative_Assesment_1' filename='play_store_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.148um9r05kss5p172we29054j1k2' name='play_store_cleaned.csv' table='[play_store_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='real' name='Rating' ordinal='2' />
+            <column datatype='integer' name='Reviews' ordinal='3' />
+            <column datatype='integer' name='Installs' ordinal='4' />
+            <column datatype='string' name='Type' ordinal='5' />
+            <column datatype='real' name='Price' ordinal='6' />
+            <column datatype='string' name='Content Rating' ordinal='7' />
+            <column datatype='string' name='Genres' ordinal='8' />
+            <column datatype='string' name='Current Ver' ordinal='9' />
+            <column datatype='string' name='Android Ver' ordinal='10' />
+            <column datatype='real' name='Size_MB' ordinal='11' />
+            <column datatype='date' name='Last_Updated' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>App</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[App]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>App</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reviews]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Reviews</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Installs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Installs]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Installs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content Rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Content Rating]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Content Rating</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genres]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Genres</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Ver</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Current Ver]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Current Ver</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Android Ver</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Android Ver]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Android Ver</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size_MB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Size_MB]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Size_MB</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last_Updated</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Last_Updated]</local-name>
+            <parent-name>[play_store_cleaned.csv]</parent-name>
+            <remote-alias>Last_Updated</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Paid App Share' datatype='real' name='[Calculation_1270277760212992]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD(IF [Type] = &quot;Paid&quot; THEN [App] END) / COUNTD([App])' />
+      </column>
+      <column caption='Est. Min Revenue' datatype='real' name='[Calculation_1270277764775937]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Price] * [Installs]' />
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Content Rating]' role='dimension' type='nominal' />
+      <column caption='Last Updated' datatype='date' name='[Last_Updated]' role='dimension' type='ordinal' />
+      <column aggregation='None' caption='Size MB (bin)' datatype='integer' name='[Size MB (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-2' formula='[Size_MB]' peg='0' size='4.24' />
+      </column>
+      <column caption='Size MB' datatype='real' name='[Size_MB]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+      <column caption='play_store_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ADMIN/AppData/Local/Temp/TableauTemp/#TableauTemp_0ftr69a1awhv4j1bbbvoe0bdm34v.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/15/2026 09:47:15 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>App</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[App]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>App</remote-alias>
+              <ordinal>0</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9526</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>1</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating</remote-alias>
+              <ordinal>2</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reviews</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reviews</remote-alias>
+              <ordinal>3</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2811</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Installs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Installs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Installs</remote-alias>
+              <ordinal>4</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>5</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>6</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Content Rating</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Content Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Content Rating</remote-alias>
+              <ordinal>7</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genres</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genres</remote-alias>
+              <ordinal>8</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Current Ver</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Current Ver]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Current Ver</remote-alias>
+              <ordinal>9</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1512</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Android Ver</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Android Ver]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Android Ver</remote-alias>
+              <ordinal>10</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Size_MB</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Size_MB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Size_MB</remote-alias>
+              <ordinal>11</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>309</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Last_Updated</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Last_Updated]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Last_Updated</remote-alias>
+              <ordinal>12</ordinal>
+              <family>play_store_cleaned.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1096</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Kenya&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[Category]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[Category]' member='&quot;ART_AND_DESIGN&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;AUTO_AND_VEHICLES&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;BEAUTY&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;BOOKS_AND_REFERENCE&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;BUSINESS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;COMICS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;COMMUNICATION&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;DATING&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;EDUCATION&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;ENTERTAINMENT&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;EVENTS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;FAMILY&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;FINANCE&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;FOOD_AND_DRINK&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;GAME&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;HEALTH_AND_FITNESS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;HOUSE_AND_HOME&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;LIBRARIES_AND_DEMO&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;LIFESTYLE&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;MAPS_AND_NAVIGATION&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;MEDICAL&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;NEWS_AND_MAGAZINES&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;PARENTING&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;PERSONALIZATION&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;PHOTOGRAPHY&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;PRODUCTIVITY&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;SHOPPING&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;SOCIAL&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;SPORTS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;TOOLS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;TRAVEL_AND_LOCAL&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;VIDEO_PLAYERS&quot;' />
+          <groupfilter function='member' level='[Category]' member='&quot;WEATHER&quot;' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[Content Rating]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Adults only 18+&quot;' />
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Everyone&quot;' />
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Everyone 10+&quot;' />
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Mature 17+&quot;' />
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Teen&quot;' />
+          <groupfilter function='member' level='[Content Rating]' member='&quot;Unrated&quot;' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[Type]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[Type]' member='&quot;Free&quot;' />
+          <groupfilter function='member' level='[Type]' member='&quot;Paid&quot;' />
+        </groupfilter>
+      </filter>
+      <object-graph>
+        <objects>
+          <object caption='play_store_cleaned.csv' id='play_store_cleaned.csv_340A545C9C364A61A0E108AE68ED5B97'>
+            <properties context=''>
+              <relation connection='textscan.148um9r05kss5p172we29054j1k2' name='play_store_cleaned.csv' table='[play_store_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='App' ordinal='0' />
+                  <column datatype='string' name='Category' ordinal='1' />
+                  <column datatype='real' name='Rating' ordinal='2' />
+                  <column datatype='integer' name='Reviews' ordinal='3' />
+                  <column datatype='integer' name='Installs' ordinal='4' />
+                  <column datatype='string' name='Type' ordinal='5' />
+                  <column datatype='real' name='Price' ordinal='6' />
+                  <column datatype='string' name='Content Rating' ordinal='7' />
+                  <column datatype='string' name='Genres' ordinal='8' />
+                  <column datatype='string' name='Current Ver' ordinal='9' />
+                  <column datatype='string' name='Android Ver' ordinal='10' />
+                  <column datatype='real' name='Size_MB' ordinal='11' />
+                  <column datatype='date' name='Last_Updated' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Apps compared to number of installs'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Category:nk]' />
+              <groupfilter function='member' level='[none:Category:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]</rows>
+        <cols>([federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk] + [federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk])</cols>
+      </table>
+      <simple-id uuid='{BCD0F18F-6CD1-490C-A8B5-1EC200808533}' />
+    </worksheet>
+    <worksheet name='Estimated Minimum revenue by Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column caption='Est. Min Revenue' datatype='real' name='[Calculation_1270277764775937]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Price] * [Installs]' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1270277764775937]' derivation='Sum' name='[sum:Calculation_1270277764775937:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]' direction='DESC' using='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Calculation_1270277764775937:qk]' />
+          <filter class='categorical' column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]'>
+            <groupfilter function='member' level='[none:Type:nk]' member='&quot;Paid&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Price:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]</rows>
+        <cols>[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Calculation_1270277764775937:qk]</cols>
+      </table>
+      <simple-id uuid='{28330DCD-A031-4E77-B455-C5E31C149B80}' />
+    </worksheet>
+    <worksheet name='Relationship between size(mb) and avarage rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='Size MB (bin)' datatype='integer' name='[Size MB (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-2' formula='[Size_MB]' peg='0' size='4.24' />
+            </column>
+            <column caption='Size MB' datatype='real' name='[Size_MB]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Size MB (bin)]' derivation='None' name='[none:Size MB (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Size MB (bin):ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Size MB (bin):ok]' />
+              <groupfilter function='member' level='[none:Size MB (bin):ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Size MB (bin):ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]</rows>
+        <cols>[federated.19gtlv007ethd31drtbj119j4c0j].[none:Size MB (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{E5D416E9-FAD2-4593-BE89-C1B438CBC972}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#75a1c7'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column caption='Paid App Share' datatype='real' name='[Calculation_1270277760212992]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(IF [Type] = &quot;Paid&quot; THEN [App] END) / COUNTD([App])' />
+            </column>
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1270277760212992]' derivation='User' name='[usr:Calculation_1270277760212992:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-format' field='[federated.19gtlv007ethd31drtbj119j4c0j].[usr:Calculation_1270277760212992:qk]' value='p0.00%' />
+            <format attr='width' value='279' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' />
+              <text column='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]' />
+              <text column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' />
+              <text column='[federated.19gtlv007ethd31drtbj119j4c0j].[usr:Calculation_1270277760212992:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1280D127-3E76-405C-BC65-5842C6E4A0AA}' />
+    </worksheet>
+    <worksheet name='Spread of rating by category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' field-type='quantitative' max='4.7999999999999998' min='3.5' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]' field-type='quantitative' max='110000000000' min='10000000' range-type='fixed' scale='log' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]' />
+              <size column='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' />
+              <color column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' />
+              <text column='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Category:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' z-order='1' />
+            <reference-line axis-column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-table' value-column='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' z-order='2' />
+            <reference-line axis-column='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-table' value-column='[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]' z-order='3' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19gtlv007ethd31drtbj119j4c0j].[sum:Installs:qk]</rows>
+        <cols>[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]</cols>
+      </table>
+      <simple-id uuid='{27E7B079-C6D0-494B-B2C0-826ECF5101C8}' />
+    </worksheet>
+    <worksheet name='Time series of number of distinct apps and avarage rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='play_store_cleaned' name='federated.19gtlv007ethd31drtbj119j4c0j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19gtlv007ethd31drtbj119j4c0j'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column caption='Last Updated' datatype='date' name='[Last_Updated]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Last_Updated]' derivation='Quarter-Trunc' name='[tqr:Last_Updated:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-line-pattern' value='dotted' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk] + [federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk])</rows>
+        <cols>[federated.19gtlv007ethd31drtbj119j4c0j].[tqr:Last_Updated:qk]</cols>
+      </table>
+      <simple-id uuid='{5E27D660-2FB1-46E7-A74F-D2B758E0A05C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Comparison of app categories'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' underline='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f9f9f9' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98014' id='13' param='vert' type-v2='layout-flow' w='99002' x='499' y='993'>
+            <zone h='7196' id='14' type-v2='title' w='99002' x='499' y='993'>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90818' id='9' param='horz' type-v2='layout-flow' w='99002' x='499' y='8189'>
+              <zone h='90818' id='7' type-v2='layout-basic' w='89027' x='499' y='8189'>
+                <zone h='90818' id='5' name='Apps compared to number of installs' w='44514' x='499' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='90818' id='6' name='Spread of rating by category' w='44513' x='45013' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='90818' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='8189'>
+                <zone h='19727' id='10' name='Spread of rating by category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' type-v2='size' w='9975' x='89526' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10050' id='11' name='Spread of rating by category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' type-v2='color' w='9975' x='89526' y='27916'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#4e79a7' underline='true'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='15' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='7196' id='14' type-v2='title' w='99002' x='499' y='993'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90818' id='5' is-fixed='true' name='Apps compared to number of installs' w='44514' x='499' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90818' id='6' is-fixed='true' name='Spread of rating by category' w='44513' x='45013' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19727' id='10' name='Spread of rating by category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' type-v2='size' w='9975' x='89526' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10050' id='11' name='Spread of rating by category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' type-v2='color' w='9975' x='89526' y='27916'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B55A78AC-238C-4370-A5B2-608424C00F30}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Estimated revenue per category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98014' id='11' param='horz' type-v2='layout-flow' w='99002' x='499' y='993'>
+            <zone h='98014' id='7' param='vert' type-v2='layout-flow' w='89027' x='499' y='993'>
+              <zone h='7196' id='8' type-v2='title' w='89027' x='499' y='993'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='90808' id='9' name='Estimated Minimum revenue by Category' w='89027' x='499' y='8189'>
+                <layout-cache cell-count-h='30' minwidth='260' non-cell-size-h='147' type-h='cell' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98014' id='10' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='993'>
+              <zone h='10050' id='12' name='Estimated Minimum revenue by Category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Price:qk]' type-v2='color' w='9975' x='89526' y='993'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='7196' id='8' type-v2='title' w='89027' x='499' y='993'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90808' id='9' is-fixed='true' name='Estimated Minimum revenue by Category' w='89027' x='499' y='8189'>
+                  <layout-cache cell-count-h='30' minwidth='260' non-cell-size-h='147' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10050' id='12' name='Estimated Minimum revenue by Category' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Price:qk]' type-v2='color' w='9975' x='89526' y='993'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4E0F7A87-42A2-4582-96C9-E44007DC53F5}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Home Page'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49007' id='5' type-v2='text' w='99002' x='499' y='993'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='24' underline='true'>Google Play Store Business Inteligence Analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49007' id='7' param='horz' type-v2='layout-flow' w='49501' x='50000' y='50000' />
+          <zone forceUpdate='true' h='49007' id='8' type-v2='text' w='49501' x='499' y='50000'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='16'>BLUF &amp; Business Understanding</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontsize='16'>- Most popular app category in relation to avarage rating and number of downloads.</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontsize='16'>- Does Size impact the avarage rating of the app</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98014' id='9' param='vert' type-v2='layout-flow' w='99002' x='499' y='993'>
+                <zone h='49007' id='5' type-v2='text' w='99002' x='499' y='993'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='24' underline='true'>Google Play Store Business Inteligence Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='49007' id='8' type-v2='text' w='49501' x='499' y='50000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='16'>BLUF &amp; Business Understanding</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontsize='16'>- Most popular app category in relation to avarage rating and number of downloads.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontsize='16'>- Does Size impact the avarage rating of the app</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AAD6EAC8-391F-4962-9171-564D7BAF029A}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Relationship between size and rating '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98014' id='14' param='vert' type-v2='layout-flow' w='99002' x='499' y='993'>
+            <zone h='7196' id='15' type-v2='title' w='99002' x='499' y='993'>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90818' id='12' param='vert' type-v2='layout-flow' w='99002' x='499' y='8189'>
+              <zone h='90818' id='7' param='horz' type-v2='layout-flow' w='99002' x='499' y='8189'>
+                <zone h='90818' id='5' type-v2='layout-basic' w='89027' x='499' y='8189'>
+                  <zone h='90818' id='3' name='Relationship between size(mb) and avarage rating' w='44514' x='499' y='8189'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='90818' id='16' name='Time series of number of distinct apps and avarage rating' w='44513' x='45013' y='8189'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone fixed-size='160' h='90818' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='8189'>
+                  <zone h='10422' id='8' name='Relationship between size(mb) and avarage rating' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]' type-v2='color' w='9975' x='89526' y='8189'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='17' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='7196' id='15' type-v2='title' w='99002' x='499' y='993'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90818' id='3' is-fixed='true' name='Relationship between size(mb) and avarage rating' w='44514' x='499' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10422' id='8' name='Relationship between size(mb) and avarage rating' pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]' type-v2='color' w='9975' x='89526' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90818' id='16' is-fixed='true' name='Time series of number of distinct apps and avarage rating' w='44513' x='45013' y='8189'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C400E73E-74D8-4295-9BA9-32C85A8BAFE5}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5281175-57B1-4033-93CD-B0BAC04EC5A3}' />
+    </window>
+    <window class='worksheet' name='Apps compared to number of installs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E9ACBA9-31A4-470D-B285-02DF1056BE56}' />
+    </window>
+    <window class='worksheet' name='Spread of rating by category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[ctd:App:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Rating:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17AB0842-ED00-43C5-8702-A4D35080404F}' />
+    </window>
+    <window class='dashboard' name='Comparison of app categories'>
+      <viewpoints>
+        <viewpoint name='Apps compared to number of installs' />
+        <viewpoint name='Spread of rating by category'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9E864F7A-2780-4EDE-82CE-63D84DED05A2}' />
+    </window>
+    <window class='worksheet' name='Relationship between size(mb) and avarage rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[none:Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{29BF3E3A-6DF7-4068-A66A-D30436D80511}' />
+    </window>
+    <window class='worksheet' name='Time series of number of distinct apps and avarage rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E0A6E063-7380-417B-9373-FAF72933CCAD}' />
+    </window>
+    <window class='worksheet' name='Estimated Minimum revenue by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19gtlv007ethd31drtbj119j4c0j].[avg:Price:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{FE2BF198-4578-4E33-B333-7F5B461B5EC9}' />
+    </window>
+    <window class='dashboard' name='Relationship between size and rating '>
+      <viewpoints>
+        <viewpoint name='Relationship between size(mb) and avarage rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Time series of number of distinct apps and avarage rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{788B1BA2-E1D0-432C-9208-04502CDCA4E6}' />
+    </window>
+    <window class='dashboard' name='Estimated revenue per category'>
+      <viewpoints>
+        <viewpoint name='Estimated Minimum revenue by Category'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9BEBAD5D-01AD-4A5D-9B3A-A720D86FF292}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Home Page'>
+      <viewpoints />
+      <active id='8' />
+      <device-preview selected='Desktop'>
+        <device is-portrait='false' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{FF9E00B5-AB66-4BDB-8870-A80A8078072A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Home Page' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
